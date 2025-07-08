@@ -51,10 +51,16 @@ body {
   color: #333;
 }
 
-.calendar img {
-  display: flex;
-  width: 286px;
+.calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.calendar img {
+  width: 90%;
+  height: auto;
+  line-height: 90%;
 }
 
 p {
