@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Antarctic';
+	src: url('fonts/antarctic.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/antarctic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/antarctic.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/antarctic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/antarctic.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/antarctic.svg#antarctic') format('svg'); /* Chrome < 4, Legacy iOS */
+}
