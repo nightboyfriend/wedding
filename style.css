@@ -89,7 +89,8 @@ h3 {
 .block2 {
   padding-top: 15px;
   width: 100%;
-  background-color: #45493A;
+  background-color: #07182E;
+  opacity: 0.7;
   padding-bottom: 15px;
   display: flex;
   flex-direction: column;
@@ -162,7 +163,8 @@ h3 {
 .block5 {
   padding-top: 15px;
   width: 100%;
-  background-color: #45493A;
+  background-color: #07182E;
+  opacity: 0.7;
   padding-bottom: 15px;
   display: flex;
   flex-direction: column;
@@ -185,11 +187,14 @@ h3 {
   display: flex;
   flex-direction: row;
   flex-grow: 1;
+  flex-wrap: wrap;
   gap: 7px;
+  justify-content: center; /* Центровка по горизонтали */
+  align-items: center;     /* Центровка по вертикали */
 }
 
 .color img {
-  height: 70px;
+  height: 100px;
   width: auto;
 }
 
